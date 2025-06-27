@@ -13,3 +13,7 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 |------------------|--------------------------------------|------|  
 | [Contoso Migration](Production-Labs/contoso-migration) | On-prem to Azure AD + VNet integration | 2022 |  
 | [DR Setup](Production-Labs/disaster-recovery) | Geo-redundant storage + failover     | 2023 |
+---
+### 🚀 About Me  
+*Explore my full GitHub profile for certifications, skills, and contact info:*  
+[github.com/Mkhithiazurenet](https://github.com/Mkhithiazurenet) 
