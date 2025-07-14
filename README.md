@@ -23,6 +23,10 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 ✔ Achieved **RPO < 15 minutes** for critical workloads  
 ✔ Automated DR drills saving **20+ hours/month** in manual testing  
 
+## Technical Architecture
+For detailed design documentation:  
+[View Hybrid Architecture Specs](Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.md)  
+
 ## 🧪 Certification & Learning Path  
 - **Active Certifications**: AZ-900 (Fundamentals)  
 - **In Progress**: AZ-104 (Administrator) → AZ-400 (DevOps)  
