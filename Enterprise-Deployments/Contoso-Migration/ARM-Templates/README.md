@@ -52,5 +52,5 @@ This folder showcases ARM (Azure Resource Manager) templates used to deploy clou
 ## ✍️ Author
 
 **Nhlanhla Mkhithi** – Hybrid Networking Innovator
-📧 [Contact Me](mkhithiazuresa@gmail.com)  
+📧 [Contact Me](https://github.com/MkhithiAzureNet) 
 📂 [Azure Projects Home](https://github.com/MkhithiAzureNet/Azure-Projects)
