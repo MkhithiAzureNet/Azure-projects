@@ -1,4 +1,4 @@
-# Azure-projects
+(Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.md)# Azure-projects
 Production-grade Azure deployments | ARM | Terraform | CCNA Networking 
 # 🔥 Azure Enterprise Deployments (2022-Present)  
 *Mkhithiazurenet | Johannesburg/Cape Town, South Africa*  
@@ -25,7 +25,7 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 
 ## Technical Architecture
 For detailed design documentation:  
-[View Hybrid Architecture Specs](Enterprise-Deployments/Contoso-Migration/Network-Diagrams/architecture.jpg)
+[View Hybrid Architecture Specs](Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.md)  
 
 ## 🧪 Certification & Learning Path  
 - **Active Certifications**: AZ-900 (Fundamentals)  
@@ -37,3 +37,4 @@ For detailed design documentation:
 ### 🚀 About Me  
 *Explore my full GitHub profile for certifications, skills, and contact info:*  
 [github.com/Mkhithiazurenet](https://github.com/Mkhithiazurenet) 
+(Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.md)
