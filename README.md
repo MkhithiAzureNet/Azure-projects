@@ -25,7 +25,7 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 
 ## Technical Architecture
 For detailed design documentation:  
-[View Hybrid Architecture Specs](Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.md)  
+[View Hybrid Architecture Specs](Enterprise-Deployments/Contoso-Migration/ARCHITECTURE.jpg)  
 
 ## 🧪 Certification & Learning Path  
 - **Active Certifications**: AZ-900 (Fundamentals)  
