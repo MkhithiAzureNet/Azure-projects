@@ -32,7 +32,7 @@ For detailed design documentation:
 - **In Progress**: AZ-104 (Administrator) → AZ-400 (DevOps)  
 - [View My Labs](Production-Labs)  
 
-📌 **Pro Tip**: Hiring managers can [verify my ARM templates](Enterprise-Deployments/Contoso-Migration/ARM-Templates) and [network diagrams](Enterprise-Deployments/Contoso-Migration/Network-Diagrams).  
+📌 **Pro Tip**: Hiring managers can [verify my ARM templates](Enterprise-Deployments/Contoso-Migration/ARM-Templates) and [network diagrams](Enterprise-Deployments/Contoso-Migration/Network-Diagrams/architecture.jpg).  
 
 ### 🚀 About Me  
 *Explore my full GitHub profile for certifications, skills, and contact info:*  
