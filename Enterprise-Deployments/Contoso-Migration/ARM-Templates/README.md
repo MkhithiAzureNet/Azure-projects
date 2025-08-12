@@ -2,7 +2,7 @@
 
 ## 🧠 Overview
 
-This folder showcases ARM (Azure Resource Manager) templates used to deploy cloud infrastructure automatically. These templates reflect skills aligned with my **AZ-900**, **AZ-104**, **AZ-400**, and real-world  diagnostics.
+This folder showcases ARM (Azure Resource Manager) templates used to deploy cloud infrastructure automatically. These templates reflect skills aligned with real-world  diagnostics.
 
 ---
 
@@ -33,9 +33,7 @@ This folder showcases ARM (Azure Resource Manager) templates used to deploy clou
 
 ## 🎯 Certification Alignment
 
-✅ **AZ-900** – Resource types, regions, templates  
-✅ **AZ-104** – VM deployment, ARM structure, automation  
-✅ **AZ-400** – DevOps-ready IaC concepts  
+✅ **AZ-900** – Resource types, regions, templates, VM deployment, ARM structure, automation  ( to write 29-Aug-25)   
 ✅ **Network+ / CCNA** – Layer 3 logic and IP configuration foundations
 
 ---
