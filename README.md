@@ -23,7 +23,7 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 ✔ Achieved **RPO < 15 minutes** for critical workloads  
 ✔ Automated DR drills saving **20+ hours/month** in manual testing  
 
-#### 3. [Migrate Linux & PostgreSQL to Azure](On-Prem-Migration) (2025)
+#### 3. [Migrate Linux & PostgreSQL to Azure](Enterprise-Deployments/Contoso-Migration/On-Prem-Migration) (2025)
 **Tech Stack**: Azure Migrate, Azure Database for PostgreSQL (Flexible Server), ARM Templates, Azure Storage, VNet Peering, Azure Monitor  
 **Key Results**:  
 ✓ Migrated Linux workloads and multi‑TB PostgreSQL databases to Azure with **zero downtime** using Azure Database Migration Service  
