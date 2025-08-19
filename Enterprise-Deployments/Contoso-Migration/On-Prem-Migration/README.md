@@ -8,7 +8,7 @@ This module documents the migration of a WSL2-hosted Linux environment and Postg
 
 ## 📸 Azure PostgreSQL Setup
 
-![Azure PostgreSQL Flexible Server Setup](screenshots/az-postgres-basics.png)
+![Azure PostgreSQL Flexible Server Setup](Screenshots/az-postgres-basics.png)
 
 
 > *I used Sandbox deployment for cost-free simulation and recruiter-facing documentation.*
@@ -43,7 +43,7 @@ This module documents the migration of a WSL2-hosted Linux environment and Postg
 
 ## 🛡️ Security Configuration
 
-![Azure PostgreSQL Flexible Server Setup](screenshots/az-postgres-security.png) 
+![Azure PostgreSQL Flexible Server Setup](Screenshots/az-postgres-security.png) 
 
 - **Data Encryption**: Enabled (Service-managed key)
 - **Key Management**: Azure-managed encryption at rest
@@ -53,7 +53,7 @@ This module documents the migration of a WSL2-hosted Linux environment and Postg
 
 ## 🧩 Resource Tags
 
-![Azure PostgreSQL Flexible Server Setup](screenshots/az-postgres-tags.png)
+![Azure PostgreSQL Flexible Server Setup](Screenshots/az-postgres-tags.png)
 
 | Name         | Value                    |
 |--------------|--------------------------|
