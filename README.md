@@ -28,9 +28,8 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 **Key Results**:  
 ✔ Migrated Linux workloads and multi‑TB PostgreSQL databases to Azure with zero downtime using Azure Database Migration Service
 ✔ Implemented geo‑redundant backups and automated failover, achieving RPO < 5 minutes
-✔ Optimized query performance through index tuning and storage tier adjustments
 ✔ Reduced operational costs by 25% via reserved instance planning and PostgreSQL compute scaling
-✔ Integrated Azure Monitor alerts and dashboards for proactive health and performance tracking 
+
 
 
 ## Technical Architecture
