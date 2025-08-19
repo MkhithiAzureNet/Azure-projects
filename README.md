@@ -23,12 +23,14 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 ✔ Achieved **RPO < 15 minutes** for critical workloads  
 ✔ Automated DR drills saving **20+ hours/month** in manual testing  
 
-### 3. [Migrate Linux & PostgreSQL to Azure](Enterprise-Deployments/On-Prem-Migration) (2025)
+#### 3. [Migrate Linux & PostgreSQL to Azure](Enterprise-Deployments/On-Prem-Migration) (2025)
 **Tech Stack**: Azure Migrate, Azure Database for PostgreSQL (Flexible Server), ARM Templates, Azure Storage, VNet Peering, Azure Monitor  
 **Key Results**:  
-✔ Migrated Linux workloads and multi‑TB PostgreSQL databases to Azure with zero downtime using Azure Database Migration Service
-✔ Implemented geo‑redundant backups and automated failover, achieving RPO < 5 minutes
-✔ Reduced operational costs by 25% via reserved instance planning and PostgreSQL compute scaling
+✓ Migrated Linux workloads and multi‑TB PostgreSQL databases to Azure with **zero downtime** using Azure Database Migration Service  
+✓ Implemented geo‑redundant backups and automated failover, achieving **RPO < 5 minutes**  
+✓ Optimized query performance by **40%** through index tuning and storage tier adjustments  
+✓ Reduced operational costs by **25%** via reserved instance planning and PostgreSQL compute scaling  
+✓ Integrated Azure Monitor alerts and dashboards for proactive health and performance tracking
 
 
 
