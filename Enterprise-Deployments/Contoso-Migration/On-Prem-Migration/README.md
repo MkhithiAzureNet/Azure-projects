@@ -8,7 +8,8 @@ This module documents the migration of a WSL2-hosted Linux environment and Postg
 
 ## 📸 Azure PostgreSQL Setup
 
-![Azure PostgreSQL Flexible Server Setup](screenshots/az-postgres-basics.png)
+![Flexible Server Setup](Enterprise-Deployments/On-Prem-Migration/screenshots/az-postgres-basics.png)
+
 
 > *I used Sandbox deployment for cost-free simulation and recruiter-facing documentation.*
 
