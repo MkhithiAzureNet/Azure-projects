@@ -18,7 +18,7 @@ sudo -u postgres psql -c "INSERT INTO diagnostics (status) VALUES ('Ready'), ('S
 
 pg_dump coolnet_migration > coolnet_migration.sql
 
-SQL Export File: [`coolnet_migration.sql`](scripts/coolnet_migration.sql)
+SQL Export File: [`coolnet_migration.sql`](https://github.com/MkhithiAzureNet/Azure-projects/blob/main/Enterprise-Deployments/Contoso-Migration/On-Prem-Migration/scripts/coolnet_migration.sql) 
 
 
 psql "host=<azure-host> port=5432 dbname=<dbname> user=<user> password=<password>" < coolnet_migration.sql
