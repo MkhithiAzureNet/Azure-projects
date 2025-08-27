@@ -40,13 +40,14 @@ For detailed design documentation:
 
 ## 🧪 Certification & Learning Path  
 - **Active Certifications**:
+Microsoft Azure Certified (AZ 900) 
 CompTIA Network+ (CompTIA N+)
 Cisco Networking Devices & Initial Configurations (Cisco Academy)
 Cisco Cybersecurity (Cisco Academy)
 Google Coursera Technical Fundementals (Coursera)
 Google Coursera Command Line In Linux (Coursera)
  
-- **In Progress**: AZ-900 (Fundamentals) To write 29-Aug-25  AZ-104 (Administrator) → AZ-400 (DevOps)  
+- **In Progress**: AZ-104 (Administrator) → AZ-400 (DevOps)  
 
 📌 **Pro Tip**: Hiring managers can [verify my ARM templates](Enterprise-Deployments/Contoso-Migration/ARM-Templates) and [network diagrams](Enterprise-Deployments/Contoso-Migration/Network-Diagrams/architecture.jpg).  
 
