@@ -29,6 +29,8 @@ In this step, we provision a Uniform Orchestration VM Scale Set running Ubuntu�
 **Cloud‑Init Script**
 This script updates the package list, installs Nginx, deploys a simple HTML page, and ensures the service starts on boot.
 
+![VMSS Cloud Init Script](vmss-deploy-images/cloud_init_script.png)
+
 
   ### Step 3 — Networking & Security Configuration
 
