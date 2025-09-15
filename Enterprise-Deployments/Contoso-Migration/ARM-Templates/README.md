@@ -33,7 +33,7 @@ This folder showcases ARM (Azure Resource Manager) templates used to deploy clou
 
 ## 🎯 Certification Alignment
 
-✅ **AZ-900** – Resource types, regions, templates, VM deployment, ARM structure, automation  ( to write 29-Aug-25)   
+✅ **AZ-900** – Resource types, regions, templates, VM deployment, ARM structure, automation 
 ✅ **Network+ / CCNA** – Layer 3 logic and IP configuration foundations
 
 ---
