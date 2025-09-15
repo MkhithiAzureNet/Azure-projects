@@ -10,20 +10,20 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 
 ## 🏗️ Production-Grade Projects  
 
-### 1. [Contoso Migration](Enterprise-Deployments/Contoso-Migration) (2023)  
+### 1. [Contoso Migration](Enterprise-Deployments/Contoso-Migration)
 **Tech Stack**: Azure Migrate, ARM Templates, VNet Peering  
 **Key Results**:  
 ✔ Migrated 50+ VMs with **zero downtime** using Azure Site Recovery  
 ✔ Reduced hybrid network latency via optimized VNet peering  
 ✔ Cut annual costs through right-sized VM allocations  
 
-### 2. [Disaster Recovery Automation](Enterprise-Deployments/DR-Setup) (2024)  
+### 2. [Disaster Recovery Automation](Enterprise-Deployments/DR-Setup) 
 **Tech Stack**: Azure Storage RA-GRS, Azure Policy, Automation Runbooks  
 **Key Results**:  
 ✔ Achieved **RPO < 15 minutes** for critical workloads  
 ✔ Automated DR drills saving **20+ hours/month** in manual testing  
 
-#### 3. [Migrate Linux & PostgreSQL to Azure](Enterprise-Deployments/Contoso-Migration/On-Prem-Migration) (2025)
+#### 3. [Migrate Linux & PostgreSQL to Azure](Enterprise-Deployments/Contoso-Migration/On-Prem-Migration)
 **Tech Stack**: Azure Migrate, Azure Database for PostgreSQL (Flexible Server), ARM Templates, Azure Storage, VNet Peering, Azure Monitor  
 **Key Results**:  
 ✓ Migrated Linux workloads and multi‑TB PostgreSQL databases to Azure with **zero downtime** using Azure Database Migration Service  
