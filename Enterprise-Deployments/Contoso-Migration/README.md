@@ -24,5 +24,41 @@ The screenshot below shows the `rg-vmss-web-demo` resource group listed with its
 *Figure 1: Resource group successfully created and visible in the Azure Portal.*
 
 ## Step 2 — Create the Virtual Machine Scale Set (VMSS) with Cloud‑Init
+In this step, we provision a Uniform Orchestration VM Scale Set running Ubuntu 22.04, attach it to our virtual network, and bootstrap it with a Cloud‑Init script that installs and configures Nginx.
 
+**Cloud‑Init Script**
+This script updates the package list, installs Nginx, deploys a simple HTML page, and ensures the service starts on boot.
+
+INIT_SCRIPT=$(cat <<'EOF'
+#!/bin/bash
+apt-get update -y
+apt-get install -y nginx
+cat > /var/www/html/index.html <<EOT
+<!DOCTYPE html><html><head><title>WSS</title></head>
+<body style="font-family:sans-serif;">
+<h1>Hello, World from WSS!</h1>
+</body></html>
+EOT
+systemctl enable nginx
+systemctl restart nginx
+EOF
+)
+
+az vmss create \
+  -g $RG \
+  -n $VMSS \
+  --location $LOC \
+  --orchestration-mode Uniform \
+  --image Ubuntu2204 \
+  --vm-sku $SKU \
+  --instance-count $CAPACITY \
+  --vnet-name $VNET \
+  --subnet $SUBNET \
+  --upgrade-policy-mode automatic \
+  --admin-username $ADMINUSER \
+  --generate-ssh-keys \
+  --backend-pool-name $BACKEND \
+  --custom-data <(echo "$INIT_SCRIPT")
+
+  ![Virtual Machine Scale Set with Cloud-Init](vmss-deploy-images/cloud_init script.png)
 
