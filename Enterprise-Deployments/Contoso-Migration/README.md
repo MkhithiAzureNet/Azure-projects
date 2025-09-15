@@ -36,7 +36,7 @@ apt-get install -y nginx
 cat > /var/www/html/index.html <<EOT
 <!DOCTYPE html><html><head><title>WSS</title></head>
 <body style="font-family:sans-serif;">
-<h1>Hello, World from WSS!</h1>
+<h1>Hello, World from VMSS!</h1>
 </body></html>
 EOT
 systemctl enable nginx
@@ -60,5 +60,12 @@ az vmss create \
   --backend-pool-name $BACKEND \
   --custom-data <(echo "$INIT_SCRIPT")
 
-  ![Virtual Machine Scale Set with Cloud-Init](vmss-deploy-images/cloud_init script.png)
+  ![Virtual Machine Scale Set with Cloud-Init](vmss-deploy-images/cloud_init_script.png) 
+
+  # Step 3 — Networking & Security Configuration
+
+In this step, we create the Virtual Network (VNet), Subnet, and Network Security Group (NSG), then configure inbound rules to allow SSH (22) and HTTP (80) traffic to our VM Scale Set.
+
+
+
 
