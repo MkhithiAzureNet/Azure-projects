@@ -99,8 +99,8 @@ What sets this project apart:
 
 ## 🏅 Certifications
 
-[![CompTIA Network+](https://img.shields.io/badge/CompTIA-N%2B-blue?logo=comptia&logoColor=white)](https://www.credly.com/badges)  
-[![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Microsoft-AZ900-blue?logo=microsoftazure&logoColor=white)](https://www.credly.com/badges)
+[![CompTIA Network+](https://img.shields.io/badge/CompTIA-N%2B-blue?logo=comptia&logoColor=white)](https://www.credly.com/earner/earned/badge/e981d034-1867-454a-bef2-80170b0d9e61)  
+[![Microsoft Certified: Azure Fundamentals](https://img.shields.io/badge/Microsoft-AZ900-blue?logo=microsoftazure&logoColor=white)](https://learn.microsoft.com/api/credentials/share/en-us/NhlanhlaMkhithi-7826/B8CDEB90FAC8C86?sharingId=5337675114BBC2C8)
 
 > These certifications validate my foundational cloud knowledge and network troubleshooting expertise — both critical to architecting scalable, secure Azure environments like the VMSS + Load Balancer demo above.
 
