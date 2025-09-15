@@ -62,9 +62,36 @@ az vmss create \
 
   ![Virtual Machine Scale Set with Cloud-Init](vmss-deploy-images/cloud_init_script.png) 
 
-  # Step 3 — Networking & Security Configuration
+  ### Step 3 — Networking & Security Configuration
 
 In this step, we create the Virtual Network (VNet), Subnet, and Network Security Group (NSG), then configure inbound rules to allow SSH (22) and HTTP (80) traffic to our VM Scale Set.
+
+### 3.1 Configuration of the Virtual Network & Subnet
+
+
+![Configuration of the Virtual Network & Subnet](vmss-deploy-images/vnet_subnet.png)
+
+### 3.2 Configuration of the Network Security Group (NSG)
+
+![Configuration of the Network Security Group](vmss-deploy-images/nsg_create.png)
+
+### 3.3 Adding Inbound Rules for SSH and HTTP
+
+**Allow SSH (Port 22)**  
+![Inbound Rule – SSH](vmss-deploy-images/inbound_rule_ssh.png)
+
+**Allow HTTP (Port 80)**  
+![Inbound Rule – HTTP](vmss-deploy-images/inbound_rule_http.png)
+
+
+### 3.4 Associating the NSG with the Subnet
+
+![Associate NSG with Subnet](vmss-deploy-images/nsg_to_subnet.png)
+
+
+
+
+
 
 
 
