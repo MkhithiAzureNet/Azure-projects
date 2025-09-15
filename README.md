@@ -10,12 +10,13 @@ Production-grade Azure deployments | ARM | Terraform | CCNA Networking
 
 ## 🏗️ Production-Grade Projects  
 
-### 1. [Contoso Migration](Enterprise-Deployments/Contoso-Migration)
-**Tech Stack**: Azure Migrate, ARM Templates, VNet Peering  
+### 1. [VMSS + Load Balancer + Health Probe Demo](Enterprise-Deployments/Contoso-Migration)
+**Tech Stack**: Azure CLI, Virtual Machine Scale Sets, Azure Load Balancer, Health Probes, Custom Script Extension
 **Key Results**:  
-✔ Migrated 50+ VMs with **zero downtime** using Azure Site Recovery  
-✔ Reduced hybrid network latency via optimized VNet peering  
-✔ Cut annual costs through right-sized VM allocations  
+✔ Deployed a **Virtual Machine Scale Set** with autoscale capability behind a **Standard Load Balancer**  
+✔ Configured **TCP Health Probe** to ensure only healthy instances receive traffic  
+✔ Implemented **Load Balancing Rule** for HTTP traffic distribution
+ 
 
 ### 2. [Disaster Recovery Automation](Enterprise-Deployments/DR-Setup) 
 **Tech Stack**: Azure Storage RA-GRS, Azure Policy, Automation Runbooks  
